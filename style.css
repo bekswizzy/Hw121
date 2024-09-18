@@ -1,0 +1,44 @@
+/* Стилі для контейнера форми */
+.form-container {
+    width: 100%; /* Ширина контейнера */
+    max-width: 400px; /* Максимальна ширина контейнера */
+    margin: 0 auto; /* Центрування по горизонталі */
+    padding: 20px; /* Відступи всередині контейнера */
+    background-color: #f2f2f2; /* Фоновий колір контейнера */
+    border-radius: 8px; /* Закругленість кутів контейнера */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Тінь контейнера */
+  }
+  
+  /* Стилі для заголовку форми */
+  .form-container h2 {
+    text-align: center; /* Вирівнювання тексту по центру */
+    margin-bottom: 20px; /* Відступ від заголовку до інших елементів */
+  }
+  
+  /* Стилі для інпутів та текстових полів форми */
+  .form-container input[type=text],
+  .form-container input[type=email],
+  .form-container input[type=password],
+  .form-container textarea {
+    width: 100%; /* Ширина інпутів на всю ширину контейнера */
+    padding: 10px; /* Відступи всередині інпутів */
+    margin: 10px 0; /* Зовнішні відступи */
+    border: 1px solid #ccc; /* Тонкий рамка */
+    border-radius: 5px; /* Закругленість кутів */
+  }
+  
+  /* Стилі для кнопки відправки форми */
+  .form-container input[type=submit] {
+    background-color: #4CAF50; /* Колір фону кнопки */
+    color: rgb(180, 0, 0); /* Колір тексту */
+    padding: 12px 20px; /* Відступи всередині кнопки */
+    border: none; /* Відсутність рамки */
+    border-radius: 5px; /* Закругленість кутів */
+    cursor: pointer; /* Зміна курсору при наведенні */
+  }
+  
+  /* Стилі для кнопки відправки форми при наведенні */
+  .form-container input[type=submit]:hover {
+    background-color: #45a049; /* Колір фону кнопки при наведенні */
+  }
+  
